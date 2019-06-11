@@ -15,7 +15,7 @@ TextView txt_nm,txt_ps;
 
         Intent i = getIntent();
       name =  i.getStringExtra("un");
-      pass =   i.getStringExtra("ps");
+        i.getStringExtra("ps");
 
 
 
